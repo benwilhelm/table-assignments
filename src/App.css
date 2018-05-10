@@ -1,0 +1,44 @@
+input.short-number {
+  width: 2em;
+  border: none;
+  border-bottom: 1px solid #888;
+  text-align: right;
+  /* margin: 0 .5em; */
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+tr > th:first-child {
+  padding: 0 .5em;
+  width: 4em;
+  text-align: right;
+}
+
+
+table.table.juryMatrix {
+  width: 100%;
+  max-width: 100%;
+}
+
+.juryMatrix tr>th:first-child {
+  background-color: #eee;
+  width: 2em;
+}
+
+.juryMatrix tr>td,
+.juryMatrix tr>th {
+  text-align: center;
+  font-size: .7em;
+}
+
+.juryMatrix td {
+  border: 1px solid #aaa;
+}
+
+.juryMatrix td.x {
+  background-color: #ddd;
+}
